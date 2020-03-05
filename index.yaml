@@ -1,0 +1,115 @@
+apiVersion: v1
+entries:
+  etcd-operator:
+  - apiVersion: v1
+    appVersion: 0.9.4
+    created: "2020-03-05T18:39:28.097984946+01:00"
+    description: CoreOS etcd-operator Helm chart for Kubernetes
+    digest: 5bc4d29fdd4b8f6fe8273ed91d67f1cbebb8275add849beccc9baaa248036f16
+    home: https://github.com/coreos/etcd-operator
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    maintainers:
+    - email: lachlan@deis.com
+      name: lachie83
+    - email: jaescobar.cell@gmail.com
+      name: alejandroEsc
+    name: etcd-operator
+    sources:
+    - https://github.com/coreos/etcd-operator
+    urls:
+    - charts/etcd-operator-0.10.0.tgz
+    version: 0.10.0
+  external-dns:
+  - apiVersion: v1
+    appVersion: 0.5.9
+    created: "2020-03-05T18:39:28.098524515+01:00"
+    description: |
+      Configure external DNS servers (AWS Route53, Google CloudDNS and others)
+      for Kubernetes Ingresses and Services
+    digest: 4cfb4b9387b527c42197ce88b3d1ec1b37ddc2855041c82df6b1942aeb113516
+    engine: gotpl
+    home: https://github.com/kubernetes-incubator/external-dns
+    maintainers:
+    - email: rabadin@cisco.com
+      name: rabadin
+    name: external-dns
+    sources:
+    - https://github.com/kubernetes-incubator/external-dns
+    urls:
+    - charts/external-dns-1.6.1.tgz
+    version: 1.6.1
+  mongodb-replicaset:
+  - apiVersion: v1
+    appVersion: "3.6"
+    created: "2020-03-05T18:39:28.100237378+01:00"
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: c18d031df1eabdc84579537a084c02b7f5f5be9405c6ea568dfc919259881635
+    home: https://github.com/mongodb/mongo
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    maintainers:
+    - email: unguiculus@gmail.com
+      name: unguiculus
+    - email: ssheehy@firescope.com
+      name: steven-sheehy
+    name: mongodb-replicaset
+    sources:
+    - https://github.com/mongodb/mongo
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - charts/mongodb-replicaset-3.9.6.tgz
+    version: 3.9.6
+  rabbitmq-ha:
+  - apiVersion: v1
+    appVersion: 3.8.0
+    created: "2020-03-05T18:39:28.101120988+01:00"
+    description: Highly available RabbitMQ cluster, the open source message broker
+      software that implements the Advanced Message Queuing Protocol (AMQP).
+    digest: 62d8f6a89c69db9937fe4d301a5f6cd0fe2defa04f1901a6714d420c2cf3a364
+    home: https://www.rabbitmq.com
+    icon: https://bitnami.com/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png
+    keywords:
+    - rabbitmq
+    - message queue
+    - AMQP
+    - AMQPS
+    - MQTT
+    - STOMP
+    maintainers:
+    - name: steven-sheehy
+    name: rabbitmq-ha
+    sources:
+    - https://github.com/rabbitmq/rabbitmq
+    - https://github.com/docker-library/rabbitmq
+    urls:
+    - charts/rabbitmq-ha-1.36.4.tgz
+    version: 1.36.4
+  stackstorm-ha:
+  - apiVersion: v1
+    appVersion: 3.2dev
+    created: "2020-03-05T18:39:28.097527702+01:00"
+    description: StackStorm K8s Helm Chart, optimized for running StackStorm in HA
+      environment.
+    digest: e19690f5124f4f2fb6560c6fd459f57433ba3ed82c04915a7509441e657ab8ca
+    home: https://stackstorm.com/#product
+    icon: https://avatars1.githubusercontent.com/u/4969009
+    keywords:
+    - st2
+    - stackstorm
+    - devops
+    - chatops
+    - event-driven
+    - auto-remediation
+    - IFTTT
+    - HA
+    maintainers:
+    - name: Eugen C.
+      url: https://github.com/armab
+    - name: Warren Van Winckel
+      url: https://github.com/warrenvw
+    name: stackstorm-ha
+    urls:
+    - stackstorm-ha-0.25.0.tgz
+    version: 0.25.0
+generated: "2020-03-05T18:39:28.088165769+01:00"
